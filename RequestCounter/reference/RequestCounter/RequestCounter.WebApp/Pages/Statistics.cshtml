@@ -1,0 +1,34 @@
+﻿@page
+@model RequestCounter.WebApp.Pages.StatisticsModel
+@{
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Method
+            </th>
+            <th>
+                Count
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.StatsSummary.StatisticsEntries)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Method)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExecutionCount)
+                </td>
+              
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<a href="/">Go to main page</a>

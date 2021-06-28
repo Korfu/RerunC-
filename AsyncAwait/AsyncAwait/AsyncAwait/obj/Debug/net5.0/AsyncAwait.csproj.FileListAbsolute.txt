@@ -1,0 +1,16 @@
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.exe
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.deps.json
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.runtimeconfig.json
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.runtimeconfig.dev.json
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.dll
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\ref\AsyncAwait.dll
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\bin\Debug\net5.0\AsyncAwait.pdb
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.csprojAssemblyReference.cache
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.AssemblyInfoInputs.cache
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.AssemblyInfo.cs
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.dll
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\ref\AsyncAwait.dll
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.pdb
+C:\Users\ebarrze\source\repos\AsyncAwait\AsyncAwait\obj\Debug\net5.0\AsyncAwait.genruntimeconfig.cache

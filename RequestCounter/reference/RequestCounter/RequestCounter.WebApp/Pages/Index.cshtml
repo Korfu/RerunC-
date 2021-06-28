@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Main Page";
+}
+
+<div>
+    <a href="/statistics"> See statistics</a>
+    <br />
+    <a href="/request-counter" >click to execute get</a>
+    <br />
+    <form method="post" asp-page="/request-counter">
+        <input type="submit" value="Send Post" />
+    </form>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.exe
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.deps.json
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.runtimeconfig.json
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.runtimeconfig.dev.json
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.dll
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\ref\Linq_Codecool.dll
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\bin\Debug\net5.0\Linq_Codecool.pdb
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.csprojAssemblyReference.cache
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.AssemblyInfoInputs.cache
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.AssemblyInfo.cs
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.csproj.CoreCompileInputs.cache
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.dll
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\ref\Linq_Codecool.dll
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.pdb
+C:\Users\ebarrze\source\repos\Linq_Codecool\Linq_Codecool\obj\Debug\net5.0\Linq_Codecool.genruntimeconfig.cache
