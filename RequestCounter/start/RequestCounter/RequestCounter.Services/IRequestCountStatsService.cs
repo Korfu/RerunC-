@@ -7,6 +7,8 @@ namespace RequestCounter.Services
 {
     public interface IRequestCountStatsService
     {
+        // Dictionary<string, int> RequestCount { get; set; }
+        
         /// <summary>
         /// Increase request counter for given as param http method
         /// </summary>

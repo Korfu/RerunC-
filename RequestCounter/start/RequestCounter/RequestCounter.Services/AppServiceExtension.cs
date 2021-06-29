@@ -10,6 +10,9 @@ namespace RequestCounter.Services
     /// </summary>
     public static class AppServiceExtension
     {
-       // Put your code here
+        public static void RegisterCounterService(this IServiceCollection collection)
+        {
+            collection.AddSingleton<IRequestCountStatsService, RequestCountStatisticsService>();
+        }
     }
 }

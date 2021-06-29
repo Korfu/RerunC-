@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using RequestCounter.Services;
 
 namespace RequestCounter.WebApi
 {
@@ -27,6 +28,7 @@ namespace RequestCounter.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.RegisterCounterService();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "RequestCounter.WebApi", Version = "v1"});
