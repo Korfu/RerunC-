@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 
 namespace RequestCounter.Services
@@ -14,14 +15,41 @@ namespace RequestCounter.Services
 
         internal static Dictionary<string, int> ReadFromFile()
         {
-            throw new NotImplementedException();
-           //Put code reading data from file here
+            var linesOfFile = File.ReadAllLines(GetFullFilePath());
+
+            // var stats = new Dictionary<string, int>();
+            // foreach (var line in linesOfFile)
+            // {
+            //     var splitted = line.Split(",");
+            //     if (splitted.Length == 2)
+            //     {
+            //         stats.Add(splitted[0], int.Parse(splitted[1]));
+            //     }
+            // }
+            //
+            // return stats;
+            
+            return linesOfFile
+                .Select(line => line.Split(","))
+                .Where(splitted => splitted.Length == 2)
+                .ToDictionary(splitted => splitted[0], splitted => int.Parse(splitted[1]));
         }
 
         internal static void WriteToFile(Dictionary<string, int> stats)
         {
-            throw new NotImplementedException();
-            //Put code writing to file here
+            // List<string> fileEntries = new List<string>();
+            // foreach (var entry in stats)
+            // {
+            //     fileEntries.Add($"{entry.Key},{entry.Value}");
+            // }
+            //
+            // File.WriteAllLines(GetFullFilePath(), fileEntries);
+            
+            var fileEntries = stats.Select(entry => $"{entry.Key},{entry.Value}").ToList();
+
+            File.WriteAllLines(GetFullFilePath(), fileEntries);
+            
+            
         }
 
         /// <summary>
