@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4YJS90NkqwZx79RXXHm6Giy3+byiFAr/NUoDF2ZRaxxxUF/RaoSPgljaP4F13076K0nXQ40FACvfc2Veh71HA==",
+  "dgSpecHash": "z+OV2hmgI3+pH7EYLv9wnEX1zm3g91FMWWu20GCAr0SKIlUtQxnFrfWevqhgBHLsxHNUiHYg4qYnEaEtruQm4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ebarrze\\source\\repos\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
+  "projectFilePath": "C:\\projects\\RerunC#\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

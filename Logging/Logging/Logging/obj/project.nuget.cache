@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WFCIBpPf4DvKAxsfEWHVALwswr0lfV8qSrE30iV5bSIHMZ3iveXLZ8mOAMRN4z312r4TRZWjLy/S2JyJ83JNCw==",
+  "dgSpecHash": "APoZwL+P6Dbs0jjs7RVUwjh8xDRoipTh46nRXdxv2xDaJrjSAE9MVWWZm7jtGM7fjJAqLKfx4pOok6Otnj6wTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\Logging.csproj",
+  "projectFilePath": "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\Logging.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

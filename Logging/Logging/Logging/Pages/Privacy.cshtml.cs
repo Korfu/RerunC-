@@ -19,6 +19,10 @@ namespace Logging.Pages
 
         public void OnGet()
         {
+            Message = $"Privacy page visited at {DateTime.UtcNow.ToLongTimeString()}";
+            _logger.LogInformation(Message);
         }
+
+        public string Message { get; set; }
     }
 }

@@ -21,7 +21,7 @@ namespace Logging.Pages
 
         public void OnGet()
         {
-            Message = $"About page visited at {DateTime.UtcNow.ToLongTimeString()}";
+            Message = $"Index page visited at {DateTime.UtcNow.ToLongTimeString()}";
             _logger.LogInformation(Message);
         }
     }

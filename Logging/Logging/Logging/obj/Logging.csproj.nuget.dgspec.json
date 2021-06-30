@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\Logging.csproj": {}
+    "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\Logging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\Logging.csproj": {
+    "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\Logging.csproj",
+        "projectUniqueName": "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\Logging.csproj",
         "projectName": "Logging",
-        "projectPath": "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\Logging.csproj",
-        "packagesPath": "C:\\Users\\ebarrze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ebarrze\\source\\repos\\Logging\\Logging\\obj\\",
+        "projectPath": "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\Logging.csproj",
+        "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\RerunC#\\Logging\\Logging\\Logging\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ebarrze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Konrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

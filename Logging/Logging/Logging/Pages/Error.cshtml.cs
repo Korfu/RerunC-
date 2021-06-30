@@ -27,6 +27,15 @@ namespace Logging.Pages
         public void OnGet()
         {
             RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+            try
+            {
+                throw new Exception("bad exception");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, $"Exception happened: {e}");
+                throw;
+            }
         }
     }
 }

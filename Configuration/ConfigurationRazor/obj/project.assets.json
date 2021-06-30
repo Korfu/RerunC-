@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ebarrze\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Konrad\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ebarrze\\source\\repos\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
+      "projectUniqueName": "C:\\projects\\RerunC#\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
       "projectName": "ConfigurationRazor",
-      "projectPath": "C:\\Users\\ebarrze\\source\\repos\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
-      "packagesPath": "C:\\Users\\ebarrze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ebarrze\\source\\repos\\Configuration\\ConfigurationRazor\\obj\\",
+      "projectPath": "C:\\projects\\RerunC#\\Configuration\\ConfigurationRazor\\ConfigurationRazor.csproj",
+      "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\RerunC#\\Configuration\\ConfigurationRazor\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ebarrze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Konrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
