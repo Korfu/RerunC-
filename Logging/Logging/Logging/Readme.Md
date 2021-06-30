@@ -24,3 +24,8 @@ MS officially recommends to use 3rd party file loggers. You can use serilog or n
 ## Configuration
 How to create an application in the Spring ecosystem that can be freely configured? Let's assume our application displays the name "CodeCool" on the `/about` page. However, it turned out that we have a requirement from the client to have a second instance
 display "CodeCool B2B" on this page.
+
+https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0
+
+Using the configured values:
+```Configuration["Position:Title"]```
