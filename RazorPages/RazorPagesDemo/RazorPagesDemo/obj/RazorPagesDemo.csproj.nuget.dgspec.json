@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ebarrze\\source\\repos\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj": {}
+    "C:\\projects\\RerunC#\\RazorPages\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ebarrze\\source\\repos\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj": {
+    "C:\\projects\\RerunC#\\RazorPages\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ebarrze\\source\\repos\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj",
+        "projectUniqueName": "C:\\projects\\RerunC#\\RazorPages\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj",
         "projectName": "RazorPagesDemo",
-        "projectPath": "C:\\Users\\ebarrze\\source\\repos\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj",
-        "packagesPath": "C:\\Users\\ebarrze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ebarrze\\source\\repos\\RazorPagesDemo\\RazorPagesDemo\\obj\\",
+        "projectPath": "C:\\projects\\RerunC#\\RazorPages\\RazorPagesDemo\\RazorPagesDemo\\RazorPagesDemo.csproj",
+        "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\RerunC#\\RazorPages\\RazorPagesDemo\\RazorPagesDemo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ebarrze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Konrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,7 +38,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0-preview1.19506.2, )"
@@ -78,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

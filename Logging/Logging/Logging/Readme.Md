@@ -34,3 +34,5 @@ set env for upcoming process:
 set ASPNETCORE_ENVIRONMENT=Staging
 dotnet run --no-launch-profile
 https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-5.0#windows
+
+best and easiest way is to add new profile in launchSettings.json

@@ -1,10 +1,30 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Contacts home page</h1>
+<form method="post">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (var contact in Model.Customers)
+            {
+                <tr>
+                    <td>@contact.Id</td>
+                    <td>@contact.Name</td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@contact.Id">Edit</a>
+                        <button type="submit" asp-page-handler="delete"
+                                asp-route-id="@contact.Id">
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-page="Create">Create New</a>
+</form>
