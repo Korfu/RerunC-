@@ -266,3 +266,4 @@ C:\projects\RerunC#\RazorPages\RazorPagesDemo\RazorPagesDemo\bin\Debug\netcoreap
 C:\projects\RerunC#\RazorPages\RazorPagesDemo\RazorPagesDemo\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\projects\RerunC#\RazorPages\RazorPagesDemo\RazorPagesDemo\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\projects\RerunC#\RazorPages\RazorPagesDemo\RazorPagesDemo\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\projects\RerunC#\RazorPages\RazorPagesDemo\RazorPagesDemo\obj\Debug\netcoreapp3.1\Razor\Pages\Create.cshtml.g.cs

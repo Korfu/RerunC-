@@ -38,3 +38,28 @@ The page model's associated markup links to the OnGetProfile page handler. Note 
    asp-page-handler="Profile"
    asp-route-attendeeid="12">Attendee Profile</a>
 ```
+
+##        [BindProperty] 
+Can be applied to a public property of a controller or PageModel class to cause model binding to target that property:
+
+Controllers and Razor pages work with data that comes from HTTP requests. For example, route data may provide a record key, and posted form fields may provide values for the properties of the model. Writing code to retrieve each of these values and convert them from strings to .NET types would be tedious and error-prone. Model binding automates this process. The model binding system:
+Suppose you have the following action method:
+```C#
+[HttpGet("{id}")]
+public ActionResult<Pet> GetById(int id, bool dogsOnly)
+```
+And the app receives a request with this URL:
+`http://contoso.com/api/pets/2?DogsOnly=true
+`
+Model binding goes through the following steps after the routing system selects the action method:
+
+Finds the first parameter of GetByID, an integer named id.
+- Looks through the available sources in the HTTP request and finds id = "2" in route data.
+- Converts the string "2" into integer 2.
+- Finds the next parameter of GetByID, a boolean named dogsOnly.
+- Looks through the sources and finds "DogsOnly=true" in the query string. Name matching is not case-sensitive.
+- Converts the string "true" into boolean true.
+
+
+
+
