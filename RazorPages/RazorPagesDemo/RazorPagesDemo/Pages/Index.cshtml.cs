@@ -22,7 +22,14 @@ namespace RazorPagesDemo.Pages
 
         public void OnGet()
         {
-            Customers = new List<Customer>();
+            Customers = new List<Customer>()
+            {
+                new Customer()
+                {
+                    Id = 1,
+                    Name = "Bob Marny"
+                }
+            };
         }
     }
 }
