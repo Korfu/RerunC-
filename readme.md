@@ -46,3 +46,52 @@ https://www.guru99.com/postman-tutorial.html
 https://en.wikipedia.org/wiki/Race_condition
 https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/lock-statement
 
+##Asynchornours programming
+ 
+- keyword async in function does nothing all alone, it requires await
+- calling result on response from GetAsync is a bad idea, because it makes this call synchronous!
+```C#
+ var responseTask = client.GetAsync($"{API_URL}/{StockIdentifier}");
+//  var response = responseTask.Result // We don't want it!
+ var respone = await responseTask;
+```
+`Calling Result or Wait() may cause a deadlock`
+
+```
+   var response = await responseTask;
+   var content = await response.Content.ReadAsStringAsync();
+```
+
+If we have 2 awaits, and one depends on another, it will execute in order only when the response in this case is available.
+
+`        public async Task<ActionResult> Index()`
+Task<T> means that ASP.NET will have a reference to onging async operation and when operation is done it can continue. 
+Task is kind of Observable<> in angular. It will make sure call has been done successfuly.
+
+`using async and await in ASP.NET means the web server can handle other requests`
+
+## Await
+- waits for async proccess to finish
+- validates the process and ensures there are no exceptions thrown
+    -rethrows exceptions that occur inside Task
+    -if we don't use await keyword, exceptions will be swallowed :(
+- allows continuation -> what to do next when data is loaded
+- can't update UI from different threads, that's why it is important not to block it
+- code before or after keayword is execruted sync, so if we add Thread.Sleep there, async won't save us from long load time
+-always avoid ASYNC VOID, it is only used in EVENT HANDLERS
+    - exceptions in async void cannot be caught, even with try catch!
+    - in handlers wrap all code in try catch no code outside
+=> Instead of void it is recommended to use `Task`
+
+
+## .WAIT() or Result
+- instead of calling it use await keyword
+- Wait() causes a deadlock!
+- Result makes call sync!
+- Totally OK to use .Result after await!
+```C#
+  private async Task GetStocks()
+        {
+            // await your code         
+        }
+```

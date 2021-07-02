@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -20,16 +22,22 @@ namespace RazorPagesDemo.Pages
         
         public IList<Customer> Customers { get; set; }
 
-        public void OnGet()
+        public async Task OnGet()
         {
-            Customers = new List<Customer>()
+            Customers = await _dbContext.Customers.ToListAsync();
+        }
+
+        public async Task<IActionResult> OnPostDelete(int id)
+        {
+            var contact = await _dbContext.Customers.FindAsync(id);
+
+            if (contact != null)
             {
-                new Customer()
-                {
-                    Id = 1,
-                    Name = "Bob Marny"
-                }
-            };
+                _dbContext.Remove(contact);
+                await _dbContext.SaveChangesAsync();
+            }
+
+            return RedirectToPage();
         }
     }
 }

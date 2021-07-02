@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPagesDemo.Data;
@@ -17,9 +18,23 @@ namespace RazorPagesDemo.Pages
         [BindProperty]
         public Customer Customer { get; set; }
 
-        public void OnGet()
+        // public IActionResult OnGet()
+        // {
+        //     return Page();
+        // }
+
+        public async Task<IActionResult> OnPost()
         {
-            
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+
+            _context.Customers.Add(Customer);
+            await _context.SaveChangesAsync();
+
+            return RedirectToPage("./Index");
         }
+        
     }
 }
